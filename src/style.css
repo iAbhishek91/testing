@@ -1,0 +1,37 @@
+li.list-style-none {
+  list-style-type: none;
+}
+
+button {
+  border: solid;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 4px;
+  color: black;
+  height: 80px;
+  width: 80px;
+}
+.result {
+  width: 320px;
+  height: 50px;
+  border-radius: 4px;
+  font-size: 16px;
+  color: black;
+  border: solid;
+  padding: 15px 32px;
+  text-align: right;
+}
+button.number {
+  background-color: white;
+}
+
+button.operation {
+  background-color: green;
+}
+
+button.clear {
+  background-color: orangered;
+}
