@@ -5,7 +5,12 @@ import PropTypes from 'prop-types';
 const Keys = props => {
   return (
     <Fragment>
-      <button className={props.type} type="button">
+      <button
+        className={props.type}
+        onClick={props.handler}
+        id={props.id}
+        type="button"
+      >
         {props.value}
       </button>
     </Fragment>
@@ -13,7 +18,8 @@ const Keys = props => {
 };
 
 Keys.propTypes = {
-  value: PropTypes.string.isRequired
+  value: PropTypes.string.isRequired,
+  type: PropTypes.string.isRequired
 };
 
 export default Keys;

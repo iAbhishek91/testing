@@ -2,11 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 const Result = props => {
-  return (
-    <textarea className="result" disabled="true">
-      {props.result}
-    </textarea>
-  );
+  return <p className="result">{props.result}</p>;
 };
 
 Result.defaultProps = {
